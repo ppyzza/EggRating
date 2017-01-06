@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Egg Rateus</string>
+    <string name="rateus_criteria_day">First day num.</string>
+    <string name="rateus_criteria_day_retry">Retry day num.</string>
+    <string name="rateus_criteria_day_num">10</string>
+    <string name="rateus_criteria_day_retry_num">10</string>
+    <string name="rate_us_retry">Show Retry</string>
+    <string name="rate_us_debug">Develop Mode</string>
+    <string name="rateus_button_title">Show Dialog</string>
+    <string name="rateus_button_spam">Spam Days</string>
+</resources>

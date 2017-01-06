@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">RateUS Dialog</string>
+    <string name="rateus_button_name">Rate US</string>
+    <string name="rateus_feedback">Your Feedback</string>
+    <string name="rateus_button_googleplay">Rate US Google Play</string>
+    <string name="rateus_text_ok">RATE US</string>
+    <string name="rateus_text_cancel">CANCEL</string>
+    <string name="rateus_text_neutral">SEND FEEDBACK</string>
+    <string name="rateus_text_title">Rate Our App</string>
+    <string name="rateus_text_description">If you love our app, please take a moment to rate it.</string>
+    <string name="rateus_text_thanks_title">Thank you!</string>
+    <string name="rateus_text_thanks_description">Thank you for taking the time to provide us with your valuable feedback.</string>
+    <string name="rateus_text_thanks_ok">OK</string>
+    <string name="rateus_text_store_title">Write a review on the PlayStore</string>
+    <string name="rateus_text_store_description">Would you mind taking a moment to rate it on the PlayStore? It won\'t take more than a minute. Thanks for your support!</string>
+    <string name="rateus_text_store_ok">RATE IT NOW</string>
+    <string name="rateus_text_store_cancel">CANCEL</string><string name="rateus_more_than_zero">Number should be more than zero</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="rateus_color_hilight">#ffb511</color>
+    <color name="rateus_color_border">#ffb511</color>
+    <color name="rateus_color_normal">@android:color/darker_gray</color>
+</resources>

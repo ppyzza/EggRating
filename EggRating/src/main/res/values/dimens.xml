@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="rateus_title_size">18sp</dimen>
+    <dimen name="rateus_desc_size">16sp</dimen>
+</resources>

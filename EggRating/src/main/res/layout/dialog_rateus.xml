@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    >
+    <RatingBar
+        android:id="@+id/rateus_ratingbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:layout_gravity="center"
+        />
+    <!--      android:progressTint="@android:color/holo_orange_light"
+        android:progressBackgroundTint="@android:color/darker_gray"
+        android:secondaryProgressTint="@android:color/holo_orange_light"-->
+    <TextView
+        android:id="@+id/rateus_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rateus_text_title"
+        android:textSize="@dimen/rateus_title_size"
+        android:textColor="@android:color/black"
+        />
+    <TextView
+        android:id="@+id/rateus_desc"
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rateus_text_description"
+        android:textSize="@dimen/rateus_desc_size"
+        android:textColor="@android:color/black"
+        />
+</LinearLayout>
