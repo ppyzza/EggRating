@@ -19,7 +19,7 @@ Let's increase your Android app reviews with `EggRating`.
 
 Import SDK from dependency at build.gradle in app folder
 
-```ruby
+```java
 dependencies {
     compile "com.eggdigital.android:eggrating:1.0"
 }
@@ -27,110 +27,38 @@ dependencies {
 
 ## Usage
 
-1., Import `EggRating` in `AppDelegate` file and in `application:didFinishLaunchingWithOptions:` initialize `EggRating` with your itunesId and other properties you want to customize
+1., Import `EggRating` in `Class` where you want to show EggRatingDialog and Initial SDK.
 
-```swift
-EggRating.itunesId = "123456789"
-EggRating.minRatingToAppStore = 3.5
+```java
+EggRating mEggRating = new EggRating (this);
+mEggRating.initial(this);
 ```
 
-2., Import `EggRating` in view controller file:
+2., You can set value `EggRating` in EggRating SDK like this.
+```java
+mEggRating = mEggRating.getmConfiguration();
+mEggRating.setmTitleId(R.string.app_name);
+```
+3., Add callback of EggRating SDK like this.
+```java
+mEggRating.showAlertRateUS (new EggRating.OnSelectCallback () {
+   @Override
+   public void onPosititive (String tag)  {
+      
+   }
+   @Override
+   public void onNegative (String tag)  {
 
-```swift
-import EggRating
+   }
+});
 ```
 
-3., Use the following to display the `EggRating` automatically (with the conditions):
 
-```swift
-EggRating.promptRateUsIfNeeded(viewController: self)
-```
-
-4., To show an `EggRating` immediately:
-
-```swift
-EggRating.promptRateUs(viewController: self)
-```
-
-5., To access `EggRating` protocol, implement `EggRatingDelegate`:
-
-```swift
-EggRating.delegate = self
-```
-
-```swift
-extension ViewController: EggRatingDelegate {
-    
-    func didRate(rating: Double) {
-        print("didRate: \(rating)")
-    }
-    
-    func didRateOnAppStore() {
-        print("didRateOnAppStore")
-    }
-    
-    func didIgnoreToRate() {
-        print("didIgnoreToRate")
-    }
-    
-    func didIgnoreToRateOnAppStore() {
-        print("didIgnoreToRateOnAppStore")
-    }
-}
-```
 ## Customisation
 
 `EggRating` also provides a property set for a customization usage:
+** An Configuration is get Configuration and can set value to EggRating Dialog by list below this line 
 
-- `itunesId` : The iTunes ID of the application (required).
-
-- `delegate` : Register in order to listen to rating actions.
-
-- `minRatingToAppStore` : Minimum score to bring user to review on the App Store, default is 4.0.
-
-- `daysUntilPrompt` : A certain number of times to display `EggRating` after first used date, default is 10 days.
-
-- `remindPeriod` : A certain number of times to display `EggRating` again, default is 10 days.
-
-- `starFillColor` : The color of selected stars, default is yellow.
-
-- `starNormalColor` : The color of normal stars, default is clear.
-
-- `starBorderColor` : The color of star border, default is yellow.
-
-- `titleLabelText` : The title of `EggRating` dialog.
-
-- `descriptionLabelText` : The description of `EggRating` dialog.
-
-- `dismissButtonTitleText` : The dismiss button title of `EggRating` dialog.
-
-- `rateButtonTitleText` : The rate button title of `EggRating` dialog.
-
-- `thankyouTitleLabelText` : The thank you title.
-
-- `thankyouDescriptionLabelText` : The thank you description.
-
-- `thankyouDismissButtonTitleText` : The thank you dismiss button.
-
-- `appStoreTitleLabelText` : The rate on app store title.
-
-- `appStoreDescriptionLabelText` : The rate on app store description.
-
-- `appStoreDismissButtonTitleText` : The rate on app store dismiss button title.
-
-- `appStoreRateButtonTitleText` : The rate on app store rate button title.
-
-- `debugMode` : The debug mode, default is false.
-
-- `minuteUntilPrompt` : A certain number of times to display `EggRating` after first used date in minute. This can be set only when debug mode is on.
-    
-- `minuteRemindPeriod` : A certain number of times to display `EggRating` again in minute. This can be set only when debug mode is on.
-
-- `appVersion` : The application version. This can be set only when debug mode is on.
-
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Credits
 - The rating stars are from [RateView](https://github.com/taruntyagi697/RateView).
