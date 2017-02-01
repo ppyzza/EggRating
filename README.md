@@ -53,6 +53,7 @@ mEggRating.showAlertRateUS (new EggRating.OnSelectCallback () {
 ## Customisation
 
 `EggRating` also provides a property set for a customization usage:
+
 ** An Configuration is get Configuration and can set value to EggRating Dialog by list below this line 
 
 
