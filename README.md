@@ -6,28 +6,23 @@ Let's increase your Android app reviews with `EggRating`.
 [![License](https://img.shields.io/cocoapods/l/EggRating.svg?style=flat)](http://cocoapods.org/pods/EggRating)
 [![Platform](https://img.shields.io/cocoapods/p/EggRating.svg?style=flat)](http://cocoapods.org/pods/EggRating)
 
-`EggRating` is an Android app review tool written with Java. `EggRating` will prompt users to rate the app after they have used it a certain number of times or after a set time period. If the user rates more than a certain number, `EggRating` will take them right to the app store where they can leave their good review 😉👍 
+`EggRating` 
+“Egg Rating SDK”  is an Android SDK for rating application on Google Play. This SDK is supported with Android 4.4 (API level 19) and higher. 😉👍 
 
 ![Screenshots](https://cloud.githubusercontent.com/assets/9149523/21676989/bf9cb586-d36a-11e6-81b7-e6f499f2d0d5.png)
 
 ## Requirements
 
-- iOS 8.0+
-- Swift 2.3+
+- Android 19 (Kitkat)
 
 ## Installation
 
-EggRating is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+Import SDK from dependency at build.gradle in app folder
 
 ```ruby
-pod 'EggRating'
-```
-
-For Swift 2.3:
-
-```ruby
-pod 'EggRating', :git => 'https://github.com/naluinui/EggRating.git', :branch => 'swift-2.3'
+dependencies {
+    compile "com.eggdigital.android:eggrating:1.0"
+}
 ```
 
 ## Usage
