@@ -1,10 +1,6 @@
 # EggRating
 Let's increase your Android app reviews with `EggRating`.
 
-[![CI Status](http://img.shields.io/travis/Somjintana K./EggRating.svg?style=flat)](https://travis-ci.org/Somjintana K./EggRating)
-[![Version](https://img.shields.io/cocoapods/v/EggRating.svg?style=flat)](http://cocoapods.org/pods/EggRating)
-[![License](https://img.shields.io/cocoapods/l/EggRating.svg?style=flat)](http://cocoapods.org/pods/EggRating)
-[![Platform](https://img.shields.io/cocoapods/p/EggRating.svg?style=flat)](http://cocoapods.org/pods/EggRating)
 
 `EggRating` 
 “Egg Rating SDK”  is an Android SDK for rating application on Google Play. This SDK is supported with Android 4.4 (API level 19) and higher. 😉👍 
@@ -60,10 +56,7 @@ mEggRating.showAlertRateUS (new EggRating.OnSelectCallback () {
 ** An Configuration is get Configuration and can set value to EggRating Dialog by list below this line 
 
 
-## Credits
-- The rating stars are from [RateView](https://github.com/taruntyagi697/RateView).
-- The star in the App Icon of an example project is made by [Maxim Basinski](http://www.flaticon.com/authors/maxim-basinski) from www.flaticon.com
 
 ## License
 
-EggRating is available under the MIT license. See the LICENSE file for more info.
+EggRating is available under the Apache license. See the LICENSE file for more info.
