@@ -1,3 +1,7 @@
+[![Build Status](https://travis-ci.org/vanniktech/gradle-android-javadoc-plugin.svg?branch=master)](https://travis-ci.org/vanniktech/gradle-android-javadoc-plugin?branch=master)
+[![License](http://img.shields.io/:license-apache-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0.html)
+![Java 8 required](https://img.shields.io/badge/java-8-brightgreen.svg)
+
 # EggRating
 Let's increase your Android app reviews with `EggRating`.
 
@@ -58,6 +62,20 @@ mEggRating.showAlertRateUS (new EggRating.OnSelectCallback () {
 
 
 
-## License
 
-EggRating is available under the Apache license. See the LICENSE file for more info.
+License
+--------
+
+    Copyright 2016
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
