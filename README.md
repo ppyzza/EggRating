@@ -58,6 +58,11 @@ mEggRating.showAlertRateUS (new EggRating.OnSelectCallback () {
 
 ** An Configuration is get Configuration and can set value to EggRating Dialog by list below this line 
 
+Modifier and Type  | Method | Description
+------------- | ------------- | -------------
+int  | getmCancelButton() | a Method getmCancelButton get message of cancel button of first dialog.
+
+
 read more at https://ppyzza.github.io/EggRating/
 
 
