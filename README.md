@@ -9,9 +9,6 @@ Let's increase your Android app reviews with `EggRating`.
 `EggRating` 
 “Egg Rating SDK”  is an Android SDK for rating application on Google Play. This SDK is supported with Android 4.4 (API level 19) and higher. 😉👍 
 
-![screen shot 2560-01-31 at 4 12 46 pm](https://cloud.githubusercontent.com/assets/3970821/22533973/c60adf64-e923-11e6-9235-52ae5e321ec0.png)
-
-
 ## Requirements
 
 - Android 19 (Kitkat)
@@ -61,7 +58,7 @@ mEggRating.showAlertRateUS (new EggRating.OnSelectCallback () {
 
 ** An Configuration is get Configuration and can set value to EggRating Dialog by list below this line 
 
-
+read more at https://ppyzza.github.io/EggRating/
 
 
 License
