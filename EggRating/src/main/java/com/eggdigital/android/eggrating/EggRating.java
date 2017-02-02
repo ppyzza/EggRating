@@ -221,9 +221,14 @@ public class EggRating {
      * @return callback
      */
     public void showAlertRateUS(final OnSelectCallBack mOnSelectCallBack) {
-        if(mConfiguration.getmCriteriaLaunchTimes() == 0) {
+        if(mConfiguration.getmCriteriaLaunchTimes() == 0 ) {
             Log.d(TAG_NAME, mActivity.getString(R.string.rateus_more_than_zero));
-        } else {
+            mConfiguration.setmCriteriaInstallDays(10);
+        }
+        if(mConfiguration.getmCriteriaLaunchTimesReTry() == 0 ) {
+            Log.d(TAG_NAME, mActivity.getString(R.string.rateus_more_than_zero));
+            mConfiguration.setmCriteriaInstallDays(10);
+        }
             if (couldBeShowRateDialog()) {
                 clearLaunchTimes(mContext);
                 LayoutInflater inflater = mActivity.getLayoutInflater();
@@ -282,8 +287,8 @@ public class EggRating {
                 });
                 mAlert.show();
             }
-        }
     }
+
 
 //    private static void storeInstallDate(final Context context) {
 //        SharedPreferences.Editor editor = pref.edit();
