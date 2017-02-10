@@ -1,6 +1,5 @@
 [![Build Status](https://travis-ci.org/vanniktech/gradle-android-javadoc-plugin.svg?branch=master)](https://travis-ci.org/vanniktech/gradle-android-javadoc-plugin?branch=master)
 [![License](http://img.shields.io/:license-apache-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0.html)
-![Java 8 required](https://img.shields.io/badge/java-8-brightgreen.svg)
 
 # EggRating
 Let's increase your Android app reviews with `EggRating`.
