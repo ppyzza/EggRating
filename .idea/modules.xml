@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/EggRating/EggRating.iml" filepath="$PROJECT_DIR$/EggRating/EggRating.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EggRating.iml" filepath="$PROJECT_DIR$/EggRating.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EggRating/EggRating-EggRating.iml" filepath="$PROJECT_DIR$/EggRating/EggRating-EggRating.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/eggrating.iml" filepath="$PROJECT_DIR$/eggrating.iml" />
     </modules>
   </component>
 </project>
