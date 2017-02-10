@@ -18,7 +18,7 @@ Import SDK from dependency at build.gradle in app folder
 
 ```java
 dependencies {
-    compile "com.eggdigital.android:eggrating:1.0"
+    compile 'com.eggdigital.android:EggRating:1.0'
 }
 ```
 
