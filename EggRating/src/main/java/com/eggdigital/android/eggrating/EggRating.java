@@ -307,11 +307,11 @@ public class EggRating {
 //        Log.d(TAG_NAME, "first install"+ installDate.toString());
 //    }
 
-    public void spamLaunchDate() {
-        SharedPreferences.Editor editor = pref.edit();
-        storeLaunchDate(editor);
-        Log.d(TAG_NAME, "status"+mDebugMode+":");
-    }
+//    public void spamLaunchDate() {
+//        SharedPreferences.Editor editor = pref.edit();
+//        storeLaunchDate(editor);
+//        Log.d(TAG_NAME, "status"+mDebugMode+":");
+//    }
 
     /**
      * a Method storeLaunchDate call and save count time of launch and count increase 1 per day.

@@ -27,7 +27,7 @@ version = '1.0' // This is the library version used when deploying the artifact
 group = 'com.eggdigital.android' // Maven Group ID for the artifact
 
 def siteUrl = 'http://eggdigital.com/' // Homepage URL of the library
-def gitUrl = 'https://mrppy@bitbucket.org/eggapplication/eggrating.git' // Git repository URL
+def gitUrl = 'https://github.com/ppyzza/EggRating.git' // Git repository URL
 //
 //android {
 //    compileSdkVersion 25
@@ -69,7 +69,7 @@ install {
                 }
                 developers {
                     developer {
-                        id 'mrppy'
+                        id 'ppyzza'
                         name 'Panchanat Prachya'
                         email 'ppyzza@gmail.com'
                     }
@@ -113,7 +113,7 @@ bintray {
     pkg {
         repo = 'maven'
         name = 'egg-rating'
-        userOrg = 'mrppy'
+        userOrg = 'ppyzza'
         desc = 'An Android SDK for rating application on Google Play.'
         websiteUrl = siteUrl
         vcsUrl = gitUrl
